@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import Profile from '../screens/Profile';
 import Settings from '../screens/Settings';
@@ -18,6 +19,6 @@ const StartNavigation = () => {
   );
 };
 
-export default startNavigation
+export default StartNavigation;
 
 const styles = StyleSheet.create({})
